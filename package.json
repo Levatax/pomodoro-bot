@@ -1,0 +1,29 @@
+{
+  "name": "pomodoro-bot",
+  "version": "1.0.0",
+  "description": "Open Source, Useful Pomodoro Discord Bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Levatax/pomodoro-bot.git"
+  },
+  "keywords": [
+    "pomodoro"
+  ],
+  "author": "levatax",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Levatax/pomodoro-bot/issues"
+  },
+  "homepage": "https://github.com/Levatax/pomodoro-bot#readme",
+  "dependencies": {
+    "discord-tts": "^1.2.0",
+    "discord.js": "^12.5.3",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.4.0",
+    "node-opus": "^0.3.3"
+  }
+}
